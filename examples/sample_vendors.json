@@ -1,0 +1,1103 @@
+{
+  "_note": "Synthetic data. Problems are injected on purpose.",
+  "vendors": [
+    {
+      "id": "V001",
+      "name": "Vendor 001",
+      "tier": 1,
+      "data_types": [
+        "financial"
+      ],
+      "stage": "active",
+      "dpa_signed": false,
+      "active_access": true,
+      "last_assessment": null,
+      "checklist": {},
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "active",
+          "date": "2025-02-01"
+        }
+      ]
+    },
+    {
+      "id": "V002",
+      "name": "Vendor 002",
+      "tier": 2,
+      "data_types": [
+        "personal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V003",
+      "name": "Vendor 003",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2024-06-01",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V004",
+      "name": "Vendor 004",
+      "tier": null,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V005",
+      "name": "Vendor 005",
+      "tier": 2,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "due_diligence",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": null,
+      "checklist": {},
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2026-07-01"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2026-08-01"
+        }
+      ]
+    },
+    {
+      "id": "V006",
+      "name": "Vendor 006",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "offboarded",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2024-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2024-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2024-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2024-03-01"
+        },
+        {
+          "stage": "offboarding",
+          "date": "2026-08-01"
+        },
+        {
+          "stage": "offboarded",
+          "date": "2026-09-01"
+        }
+      ],
+      "offboarding": {
+        "access_revoked": false,
+        "data_disposal_confirmed": true,
+        "contract_closed": true,
+        "register_updated": true
+      }
+    },
+    {
+      "id": "V007",
+      "name": "Vendor 007",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "offboarded",
+      "dpa_signed": true,
+      "active_access": false,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2024-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2024-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2024-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2024-03-01"
+        },
+        {
+          "stage": "offboarding",
+          "date": "2026-08-01"
+        },
+        {
+          "stage": "offboarded",
+          "date": "2026-09-01"
+        }
+      ],
+      "offboarding": {
+        "access_revoked": true,
+        "data_disposal_confirmed": false,
+        "contract_closed": true,
+        "register_updated": true
+      }
+    },
+    {
+      "id": "V008",
+      "name": "Vendor 008",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "offboarding",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2024-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2024-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2024-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2024-03-01"
+        },
+        {
+          "stage": "offboarding",
+          "date": "2026-08-15"
+        }
+      ],
+      "offboarding": {}
+    },
+    {
+      "id": "V009",
+      "name": "Vendor 009",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2024-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2024-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2024-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2024-03-01"
+        },
+        {
+          "stage": "offboarding",
+          "date": "2025-06-01"
+        },
+        {
+          "stage": "offboarded",
+          "date": "2025-07-01"
+        },
+        {
+          "stage": "active",
+          "date": "2026-01-01"
+        }
+      ]
+    },
+    {
+      "id": "V010",
+      "name": "Vendor 010",
+      "tier": 4,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": false
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V011",
+      "name": "Vendor 011",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V012",
+      "name": "Vendor 012",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V013",
+      "name": "Vendor 013",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V014",
+      "name": "Vendor 014",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V015",
+      "name": "Vendor 015",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V016",
+      "name": "Vendor 016",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V017",
+      "name": "Vendor 017",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V018",
+      "name": "Vendor 018",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V019",
+      "name": "Vendor 019",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V020",
+      "name": "Vendor 020",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V021",
+      "name": "Vendor 021",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V022",
+      "name": "Vendor 022",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V023",
+      "name": "Vendor 023",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V024",
+      "name": "Vendor 024",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V025",
+      "name": "Vendor 025",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V026",
+      "name": "Vendor 026",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V027",
+      "name": "Vendor 027",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V028",
+      "name": "Vendor 028",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V029",
+      "name": "Vendor 029",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    },
+    {
+      "id": "V030",
+      "name": "Vendor 030",
+      "tier": 3,
+      "data_types": [
+        "internal"
+      ],
+      "stage": "active",
+      "dpa_signed": true,
+      "active_access": true,
+      "last_assessment": "2026-06-15",
+      "checklist": {
+        "tier_assigned": true,
+        "questionnaire_received": true,
+        "evidence_reviewed": true
+      },
+      "history": [
+        {
+          "stage": "intake",
+          "date": "2025-01-02"
+        },
+        {
+          "stage": "due_diligence",
+          "date": "2025-01-10"
+        },
+        {
+          "stage": "approved",
+          "date": "2025-02-20",
+          "approved_by": "CISO"
+        },
+        {
+          "stage": "active",
+          "date": "2025-03-01"
+        }
+      ]
+    }
+  ]
+}

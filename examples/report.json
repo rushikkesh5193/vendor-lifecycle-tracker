@@ -1,0 +1,131 @@
+{
+  "as_of": "2026-10-23",
+  "issues": [
+    {
+      "severity": "critical",
+      "vendor": "V001",
+      "name": "Vendor 001",
+      "check": "GO_LIVE_WITHOUT_APPROVAL",
+      "detail": "Vendor is or was live with no recorded approval and approver.",
+      "action": "Obtain and record retrospective approval."
+    },
+    {
+      "severity": "critical",
+      "vendor": "V006",
+      "name": "Vendor 006",
+      "check": "OFFBOARD_ACCESS_LINGERING",
+      "detail": "Offboarded vendor still has active access.",
+      "action": "Revoke access now."
+    },
+    {
+      "severity": "critical",
+      "vendor": "V006",
+      "name": "Vendor 006",
+      "check": "OFFBOARD_INCOMPLETE",
+      "detail": "Marked offboarded but not done: access_revoked.",
+      "action": "Finish the offboarding checklist."
+    },
+    {
+      "severity": "high",
+      "vendor": "V001",
+      "name": "Vendor 001",
+      "check": "DUE_DILIGENCE_INCOMPLETE",
+      "detail": "Approved or live but missing: tier_assigned, questionnaire_received, evidence_reviewed, dpa_signed.",
+      "action": "Complete the missing due diligence items."
+    },
+    {
+      "severity": "high",
+      "vendor": "V001",
+      "name": "Vendor 001",
+      "check": "REASSESSMENT_OVERDUE",
+      "detail": "Live vendor has never been assessed.",
+      "action": "Run an assessment."
+    },
+    {
+      "severity": "high",
+      "vendor": "V001",
+      "name": "Vendor 001",
+      "check": "SKIPPED_GATE",
+      "detail": "Moved intake -> active on 2025-02-01, which the lifecycle does not allow.",
+      "action": "Record the missing stage with evidence, or correct the history."
+    },
+    {
+      "severity": "high",
+      "vendor": "V002",
+      "name": "Vendor 002",
+      "check": "GO_LIVE_WITHOUT_APPROVAL",
+      "detail": "Vendor is or was live with no recorded approval and approver.",
+      "action": "Obtain and record retrospective approval."
+    },
+    {
+      "severity": "high",
+      "vendor": "V004",
+      "name": "Vendor 004",
+      "check": "TIER_MISSING",
+      "detail": "Live vendor has no risk tier.",
+      "action": "Tier the vendor."
+    },
+    {
+      "severity": "high",
+      "vendor": "V007",
+      "name": "Vendor 007",
+      "check": "OFFBOARD_INCOMPLETE",
+      "detail": "Marked offboarded but not done: data_disposal_confirmed.",
+      "action": "Finish the offboarding checklist."
+    },
+    {
+      "severity": "high",
+      "vendor": "V008",
+      "name": "Vendor 008",
+      "check": "OFFBOARD_ACCESS_LINGERING",
+      "detail": "Offboarding for over the limit and the vendor still has access.",
+      "action": "Revoke access now."
+    },
+    {
+      "severity": "high",
+      "vendor": "V010",
+      "name": "Vendor 010",
+      "check": "DUE_DILIGENCE_INCOMPLETE",
+      "detail": "Approved or live but missing: evidence_reviewed.",
+      "action": "Complete the missing due diligence items."
+    },
+    {
+      "severity": "medium",
+      "vendor": "V003",
+      "name": "Vendor 003",
+      "check": "REASSESSMENT_OVERDUE",
+      "detail": "Last assessed 2024-06-01; Tier 3 cadence is 24 months.",
+      "action": "Run the periodic reassessment."
+    },
+    {
+      "severity": "medium",
+      "vendor": "V005",
+      "name": "Vendor 005",
+      "check": "STALLED_STAGE",
+      "detail": "In due_diligence for 83 days (limit 45).",
+      "action": "Unblock or escalate."
+    },
+    {
+      "severity": "medium",
+      "vendor": "V008",
+      "name": "Vendor 008",
+      "check": "STALLED_STAGE",
+      "detail": "In offboarding for 69 days (limit 30).",
+      "action": "Unblock or escalate."
+    },
+    {
+      "severity": "medium",
+      "vendor": "V009",
+      "name": "Vendor 009",
+      "check": "INVALID_TRANSITION",
+      "detail": "Moved offboarded -> active on 2026-01-01, which the lifecycle does not allow.",
+      "action": "Correct the history or reopen the vendor properly."
+    }
+  ],
+  "pipeline": {
+    "active": 26,
+    "due_diligence": 1,
+    "offboarded": 2,
+    "offboarding": 1
+  }
+}

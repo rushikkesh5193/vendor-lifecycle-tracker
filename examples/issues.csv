@@ -1,0 +1,16 @@
+severity,vendor,name,check,detail,action
+critical,V001,Vendor 001,GO_LIVE_WITHOUT_APPROVAL,Vendor is or was live with no recorded approval and approver.,Obtain and record retrospective approval.
+critical,V006,Vendor 006,OFFBOARD_ACCESS_LINGERING,Offboarded vendor still has active access.,Revoke access now.
+critical,V006,Vendor 006,OFFBOARD_INCOMPLETE,Marked offboarded but not done: access_revoked.,Finish the offboarding checklist.
+high,V001,Vendor 001,DUE_DILIGENCE_INCOMPLETE,"Approved or live but missing: tier_assigned, questionnaire_received, evidence_reviewed, dpa_signed.",Complete the missing due diligence items.
+high,V001,Vendor 001,REASSESSMENT_OVERDUE,Live vendor has never been assessed.,Run an assessment.
+high,V001,Vendor 001,SKIPPED_GATE,"Moved intake -> active on 2025-02-01, which the lifecycle does not allow.","Record the missing stage with evidence, or correct the history."
+high,V002,Vendor 002,GO_LIVE_WITHOUT_APPROVAL,Vendor is or was live with no recorded approval and approver.,Obtain and record retrospective approval.
+high,V004,Vendor 004,TIER_MISSING,Live vendor has no risk tier.,Tier the vendor.
+high,V007,Vendor 007,OFFBOARD_INCOMPLETE,Marked offboarded but not done: data_disposal_confirmed.,Finish the offboarding checklist.
+high,V008,Vendor 008,OFFBOARD_ACCESS_LINGERING,Offboarding for over the limit and the vendor still has access.,Revoke access now.
+high,V010,Vendor 010,DUE_DILIGENCE_INCOMPLETE,Approved or live but missing: evidence_reviewed.,Complete the missing due diligence items.
+medium,V003,Vendor 003,REASSESSMENT_OVERDUE,Last assessed 2024-06-01; Tier 3 cadence is 24 months.,Run the periodic reassessment.
+medium,V005,Vendor 005,STALLED_STAGE,In due_diligence for 83 days (limit 45).,Unblock or escalate.
+medium,V008,Vendor 008,STALLED_STAGE,In offboarding for 69 days (limit 30).,Unblock or escalate.
+medium,V009,Vendor 009,INVALID_TRANSITION,"Moved offboarded -> active on 2026-01-01, which the lifecycle does not allow.",Correct the history or reopen the vendor properly.

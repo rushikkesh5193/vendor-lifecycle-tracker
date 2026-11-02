@@ -1,0 +1,8 @@
+{
+  "_note": "Defaults are illustrative. Tune them to your own TPRM policy.",
+  "reassessment_months": {"1": 12, "2": 12, "3": 24, "4": 36},
+  "stall_days": {"intake": 30, "due_diligence": 45, "approved": 30, "offboarding": 30},
+  "approval_checklist": ["tier_assigned", "questionnaire_received", "evidence_reviewed", "approver_recorded"],
+  "dpa_required_data": ["personal", "financial", "sensitive", "health"],
+  "offboarding_checklist": ["access_revoked", "data_disposal_confirmed", "contract_closed", "register_updated"]
+}
